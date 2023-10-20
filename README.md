@@ -3,7 +3,7 @@
 
 <h3 align="center">PROJETO DESENVOLVIDO NO DECORRER DO CURSO JUNTO COM O PROFESSOR LUIZ OTÁVIO MIRANDA</h3>
 
-<h4 align="center"><a href="https://https://projeto-fokus-alura-jinm.vercel.app/(https://projetolandingpage-udemy.netlify.app/#)" align="center">Clique aqui para visitar o projeto<a/></h4>
+<h4 align="center"><a href="https://projetolandingpage-udemy.netlify.app/" align="center">Clique aqui para visitar o projeto<a/></h4>
 
 ##
 
