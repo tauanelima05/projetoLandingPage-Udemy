@@ -3,6 +3,8 @@
 
 <h3 align="center">PROJETO DESENVOLVIDO NO DECORRER DO CURSO JUNTO COM O PROFESSOR LUIZ OTÁVIO MIRANDA</h3>
 
+<p align="center"><img src="https://github.com/tauanelima05/siteSamsung/assets/101372296/ec7922c7-2421-4bc3-9c24-5d5483a8baee"></p>
+
 <h4 align="center"><a href="https://projetolandingpage-udemy.netlify.app/" align="center">Clique aqui para visitar o projeto<a/></h4>
 
 ##
