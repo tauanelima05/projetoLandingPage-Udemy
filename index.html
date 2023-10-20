@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="./assets/CSS/elements.css">
+    <link rel="stylesheet" href="./assets/CSS/style.css">
+</head>
+<body>
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+
+    <aside class="menu white-bg"> 
+        <div class="main-content menu-content">
+            <h1>
+                <a href="#home" onclick="getElementById('close-menu').checked = false">LOGO</a>
+            </h1>
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false">
+                    <li><a href="#intro">intro</a></li>
+                    <li><a href="#desenvolvimento">desenvolvimento</a></li>
+                    <li><a href="#gallery">gallery</a></li>
+                    <li><a href="#premio">prêmios</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section id="home" class="home main-bg section">
+        <div class="main-content home-content">
+            <div class="home-text-content">
+                <h2>Usando a tecnologia para construir um mundo melhor</h2>
+                <p>Somos uma empresa que tem como base o princípio da colaboração com mais de 900 funcionários dedicados a prover as melhores soluções de tecnologia para empresas de diversos segmentos de mercado.</p>
+            </div>
+            <div class="home-img">
+                <img src="assets/IMG/linguagens.svg">
+            </div>
+        </div>
+    </section>
+
+    <section id="intro" class="white-bg section">
+        <div class="main-content intro-content">
+            <h2>A transformação digital do seu negócio é o nosso desafio.</h2>
+            <p>Trabalhamos com soluções digitais impactantes, sustentáveis e ágeis que posicionam nossos parceiros em um alto padrão de modernidade para que estejam à frente em um mundo em constante mudança.</p>
+            <p>Nosso time multifuncional possui profissionais especializados para enfrentar os mais diversos desafios funcionais e técnicos, assim como está pronto para trabalhar na construção de soluções robustas e flexíveis, utilizando as melhores práticas e tecnologias disponíveis no mercado.</p>
+            <p>Dessa forma, garantimos a entrega de soluções alinhadas às principais tendências do mercado e que podem se adaptar conforme o crescimento do negócio, bem como com o surgimento de novas demandas.</p>
+        </div>
+    </section>
+
+    <section id="desenvolvimento" class="desenvolvimento main-bg section">
+        <div class="main-content desenvolvimento-one-content">
+            <h2 class="desenvolvimento-main-heading">Desenvolvimento Moderno</h2>
+            <p class="desenvolvimento-description">Trabalhamos com soluções digitais impactantes, sustentáveis e ágeis.</p>
+
+            <div class="grid">
+                <article>
+                    <h3>Web & Mobile Development</h3>
+                    <p>O serviço de desenvolvimento Web & Mobile proporciona uma excelente experiência no front-end de aplicações, sejam elas web ou mobile. É altamente indicado para organizações que queiram contar com soluções e recursos feitos sob medida, garantindo maior satisfação, comodidade, facilidade e agilidade no dia a dia dos usuários.</p>
+                </article>
+                <article>
+                    <h3>Cloud</h3>
+                    <p>Cloud é a entrega de serviços de computação – incluindo servidores, armazenamento, bancos de dados, rede, software, análise e inteligência – de forma digital para oferecer inovação mais rápida, recursos flexíveis e economias de escala.</p>
+                </article>
+                <article>
+                    <h3>Automação de Testes</h3>
+                    <p>A automação de testes é utilizada como uma etapa da Garantia de Qualidade das Soluções e é um passo muito importante antes do lançamento de produtos ou softwares. Ela serve para termos certeza de que uma aplicação complexa e com diversas funcionalidades atua em diversas plataformas, não possui bugs e tem a performance agradável.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery white-bg section">
+        <div class="main-content gallery-one-content">
+            <h2 class="gallery-main-heading">Gallery</h2>
+            <p class="gallery-description">Trabalhamos com soluções digitais impactantes, sustentáveis e ágeis.</p>
+
+            <div class="grid">
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r-1">
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r-2">
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r-3">
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r-4">
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r-5">
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r-6">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="premio" class="white-bg section">
+        <div class="main-content intro-content">
+            <h2>Prêmios</h2>
+            <p>Temos uma cultura de valorização e de incentivo ao desenvolvimento das nossas pessoas. Como resultado das boas práticas seguidas pela empresa, somos reconhecidos constantemente pelos maiores selos do mercado tanto em gestão de pessoas quanto em crescimento do negócio.</p>
+
+            <div class="responsive-table">
+                <table>
+                    <caption>Prêmios e Reconhecimentos</caption>
+                    <thead>
+                        <tr>
+                            <th>Great Place to Work ™</th>
+                            <th>ISG Provider Lens™</th>
+                            <th>Anuário Informática Hoje</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>GPTW São Paulo</td>
+                            <td>Agile Application Development Projects</td>
+                            <td>As campeãs de crescimento</td>
+                        </tr>
+                        <tr>
+                            <td>GPTW Tecnologia da Informação</td>
+                            <td>Application Quality Assurance</td>
+                            <td>As mais rentáveis</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>Prêmios 2022</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="home main-bg section">
+        <div class="main-content home-content">
+            <div class="home-text-content">
+                <h2>contact us</h2>
+                <p>End.: AV. Teste - SP</p>
+                <p>Tel.: +55 (11) 99999-0000</p>
+            </div>
+            <div class="home-img">
+                <img src="assets/IMG/contact.svg">
+            </div>
+
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    <legend>Contate-nos</legend>
+                    <div class="form-group">
+                        <label for="nome">Nome:</label>
+                        <input type="text" name="nome" id="nome" placeholder="Nome">
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="sobrenome">Sobrenome:</label>
+                        <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome">
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="email">E-mail:</label>
+                        <input type="email" name="email" id="email" placeholder="exemplo@gmail.com">
+                    </div>
+    
+                    <div class="form-group full-width">
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Sua mensagem"></textarea>
+                    </div>
+    
+                    <div class="form-group full-width">
+                        <button type="submit">Enviar</button>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="footer white-bg">
+        <p><a target="_blank" href="https://github.com/tauanelima05">Desenvolvido em aula por Tauane Oliveira :)</a></p>
+    </footer>
+
+    <a href="#" class="back-to-topo">▸</a>
+</body>
+</html>
+
